@@ -44,7 +44,7 @@ h1 {
 .image1 {
   position: absolute;
   left: -4rem;
-  top: 50%;
+  top: 10.9rem;
   transform: translateY(-50%);
   width: 27rem;
 }
@@ -52,7 +52,7 @@ h1 {
 .image2 {
   position: absolute;
   left: -5.5rem;
-  top: 62.5%;
+  top: 13.63rem;
   transform: translateY(-50%);
   width: 10rem;
 }
