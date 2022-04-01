@@ -1,0 +1,146 @@
+
+body {
+  width: 70%;
+  margin: auto;
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1rem;
+  color: hsl(238, 29%, 16%);
+}
+
+main {
+  background: white url("../images/bg-pattern-desktop.svg") no-repeat -37.5rem -18rem;
+  margin: 3.5rem 0;
+  padding: 3.5rem 0;
+  border-radius: 2rem;
+  box-shadow: 0 0.5rem 1rem 0 hsl(237, 12%, 33%);
+}
+
+p {
+  font-size: 0.9rem;
+  background-color: white;
+  text-align: left;
+  width: 85%;
+}
+
+h1 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Image */
+
+.parent {
+  position: relative;
+}
+
+.image-main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image1 {
+  position: absolute;
+  left: -4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 27rem;
+}
+
+.image2 {
+  position: absolute;
+  left: -5.5rem;
+  top: 62.5%;
+  transform: translateY(-50%);
+  width: 10rem;
+}
+
+/* FAQ Accordion */
+
+.question-answer {
+  border-bottom: 1px solid;
+  border-color: hsl(240, 5%, 91%);
+  width: 80%;
+}
+
+.question {
+  width: 100%;
+  background-color: white;
+  text-align: left;
+  padding: 1rem 2rem 1rem 0;
+  cursor: pointer;
+  border-style: hidden;
+}
+
+.question::after {
+  content: url("../images/icon-arrow-down.svg");
+  float: right;
+}
+
+.question:hover {
+  color: hsl(14, 88%, 65%);
+}
+
+.answer {
+  display: none;
+}
+
+.active {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.active::after {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 991px) {
+
+  body {
+    width: 27.5rem;
+  }
+
+  main {
+    background: white url("../images/bg-pattern-mobile.svg") no-repeat 6.15rem 0;
+    margin-top: 10rem;
+  }
+
+  .image-main {
+    overflow: visible;
+  }
+
+  .image1 {
+    left: 6.25rem;
+    width: 15rem;
+    top: -4.75rem;
+    content: url("../images/illustration-woman-online-mobile.svg");
+  }
+
+  .image2 {
+    display: none;
+  }
+
+  .question-answer-wrapper {
+    margin-top: 5rem;
+    text-align: center;
+  }
+
+  .question-answer {
+    display: block;
+    margin: 0 auto;
+  }
+
+}
+
+/* Attribution */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
