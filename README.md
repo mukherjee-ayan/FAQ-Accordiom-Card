@@ -16,9 +16,9 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![Desktop Design](./desktop.jpg)
+![Desktop Design](./desktop.png)
 
-![Mobile Design](./mobile.jpg)
+![Mobile Design](./mobile.png)
 
 
 ### Links
